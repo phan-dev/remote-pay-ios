@@ -7,9 +7,9 @@
  */
 public class RetrievePaymentRequest {
     /// the external id passed in to the Sale, Auth or PreAuth request
-    public var externalPayentId:String
+    public var externalPaymentId:String
     
     public init(_ externalPaymentId:String) {
-        self.externalPayentId = externalPaymentId
+        self.externalPaymentId = externalPaymentId
     }
 }
